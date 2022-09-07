@@ -17,15 +17,24 @@ footer{
   background-color: black;
 }
 
-.menù li {
+.menù li,.business-name li {
 
   display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
     
 }
 
 .no-unline{
 
 text-decoration: none;
+
+}
+
+.link-social i {
+
+ margin-left: 8px;  
+    
 
 }
 
