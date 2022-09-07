@@ -1,0 +1,61 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+
+}
+
+header{
+
+ background-color: blueviolet;  
+  height: 83px;
+}
+
+
+
+
+
+.container{
+margin: 0 auto;
+width: 80%;
+display: flex;
+padding-top: 2em;
+padding-bottom: 2em;
+justify-content: space-between;
+
+
+
+/* DEBUG  */
+background-color: blue;
+
+
+}
+
+
+/* Regole Caratteri */
+
+.text-withe{
+    color: white;
+}
+
+.text-red{
+
+color: red;
+}
+
+
+/* DEBUG */
+
+
+.org-back{
+
+background-color: orange;
+
+
+}
+
+
+
+
+
