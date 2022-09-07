@@ -13,9 +13,6 @@ header{
 }
 
 
-
-
-
 .container{
 margin: 0 auto;
 width: 80%;
@@ -24,23 +21,90 @@ padding-top: 2em;
 padding-bottom: 2em;
 justify-content: space-between;
 
-
-
 /* DEBUG  */
 background-color: blue;
+}
 
+.central{
+
+flex-wrap: wrap;
+
+}
+
+
+.heart{
+
+ background-color: white;  
+ width: 20px;
+ padding: 5px;
+ position: absolute;
+ right: 0;
+ top: 10px; 
+
+
+}
+
+
+
+.sostenibility{
+
+background-color: green;   
+position: absolute;
+left: 50px;   
+bottom: 20px; 
+padding: 5px;
+}
+
+.discount{
+
+ background-color: red;   
+ position: absolute;
+left: 0;
+bottom: 20px;
+padding: 5px;
+
+}
+
+.txt-under-img{
+
+background-color: blueviolet;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+.card{
+
+margin-top: 10px;
+position: relative;
+
+
+/* DEBUG */
+background-color: lightpink;
+border: 1px solid black;
+width: 300px; 
+min-height: 200px;
 
 }
 
 
 /* Regole Caratteri */
 
-.text-withe{
+.text-white{
     color: white;
 }
 
 .text-red{
-
 color: red;
 }
 
